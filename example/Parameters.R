@@ -1,0 +1,28 @@
+project_name <- 'Analysis';
+working_dir <- '/Omics_Notebook/example'; # Directory for analysis and where data is 
+annotation_filename <- '/Omics_Notebook/example/Annotation_3.xlsx';
+query_web <- TRUE;
+map_color <- 'viridis';
+zero_percent <- 0.70;
+norm_method <- 'quantile';
+log_transform <- TRUE;
+shinyNorm <- FALSE;
+saveXlsx <- TRUE;
+runDifferential <- TRUE;
+adjpcutoff <- 0.05;
+sig_percent <- 0.010;
+enrichr_section <- FALSE;
+gsea_section <- TRUE;
+gsea_MOMENTA_section <- TRUE;
+activePathways_section <- TRUE;
+all_comparisons <- TRUE;
+combined_met <- TRUE;
+species <- 'Human (9606)';
+use_site_norm <- FALSE;
+int_heatmap_section <- FALSE;
+int_volcano_section <- TRUE;
+txtFolder <- FALSE;
+inherit_paths <- FALSE;
+libraries_path <- '.';
+annotation_filename <- '/data/Annotation_3.xlsx';
+working_dir <- '/data';
